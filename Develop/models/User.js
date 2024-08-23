@@ -14,7 +14,7 @@ const userSchema = new Schema(
       type: String,
       required: true,
       unique: true,
-      ValidityState: 50,
+      ValidityState: true,
     },
     thoughts: {
       type: String,
